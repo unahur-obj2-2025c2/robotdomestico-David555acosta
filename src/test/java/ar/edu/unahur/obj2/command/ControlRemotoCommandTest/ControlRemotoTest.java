@@ -1,10 +1,16 @@
-package ar.edu.unahur.obj2.command.ControlRemotoCommand;
+package ar.edu.unahur.obj2.command.ControlRemotoCommandTest;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import ar.edu.unahur.obj2.command.ControlRemotoCommand.ApagarLuzCommand;
+import ar.edu.unahur.obj2.command.ControlRemotoCommand.Comando;
+import ar.edu.unahur.obj2.command.ControlRemotoCommand.ControlRemoto;
+import ar.edu.unahur.obj2.command.ControlRemotoCommand.EncenderLuzCommand;
+import ar.edu.unahur.obj2.command.ControlRemotoCommand.Luz;
 
 public class ControlRemotoTest {
     private Luz luz;
