@@ -4,7 +4,6 @@ public class ApagarLuzCommand implements Comando {
 
     private Luz luz;
 
-    
     public ApagarLuzCommand(Luz luz) {
         this.luz = luz;
     }

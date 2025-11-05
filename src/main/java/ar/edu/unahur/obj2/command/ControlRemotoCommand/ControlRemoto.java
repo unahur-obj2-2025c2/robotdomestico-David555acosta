@@ -1,9 +1,10 @@
 package ar.edu.unahur.obj2.command.ControlRemotoCommand;
 
-import ar.edu.unahur.obj2.command.ComandRemoteException;
-
 public class ControlRemoto {
     private Comando comando;
+
+    public ControlRemoto() {
+    }
 
     public ControlRemoto(Comando comando) {
         this.comando = comando;
@@ -19,6 +20,10 @@ public class ControlRemoto {
         }
 
         comando.ejecutar();
+    }
+
+    public Comando getComando() {
+        return comando;
     }
 
 }
